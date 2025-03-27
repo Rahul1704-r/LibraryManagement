@@ -15,7 +15,6 @@ class BookServiceTest {
     @Test
     void shouldAddBookSuccessfully() {
         bookService.addBook("Java Basics", "John Doe", "Programming", "Available");
-        // Assuming book ID starts from 1
         bookService.searchBookById(1); // Checking if the book exists
     }
 
